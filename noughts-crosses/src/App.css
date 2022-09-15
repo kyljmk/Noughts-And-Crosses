@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+ justify-content: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid--firstrow, .grid--secondrow, .grid--thirdrow {
+  display: flex;
+}
+
+.grid {
+  border: 1px black solid;
+}
+
+.square {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
